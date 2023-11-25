@@ -1,11 +1,11 @@
-import Header from "./components/header";
-import ListarTarefa from "./pages/tarefa/ListarTarefa";
+import CustomHeader from "./components/custom_header";
+import Login from "./pages/login";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ListarTarefa />
+      <CustomHeader />
+      <Login />
     </div>
   );
 }
